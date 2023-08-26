@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=DM+Sans:opsz@9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  background-color: white;
+  position: relative;
+}
+
+body {
+  font-family: 'Comforter Brush', cursive;
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
+
+header,
+section {
+  padding: 0 40px;
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
+header {
+  background-color: transparent;
+
+  /* 164 */
+}
+
+.bacabuku {
+  /* background: linear-gradient(180deg, #2f364b 0%, #262b3d 100%); */
+
+  background-image: url('/public/Rectangle.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top -5px;
+
+  /* &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    border-left: 100vw solid transparent;
+    border-bottom: 24.9vw solid rgb(0, 0, 0);
+    height: 25dvh;
+    width: 100vw;
+  } */
+}
+
+@media screen and (min-width: 1024px) {
+  header,
+  section {
+    padding: 0 130px;
+  }
+}
+
+@media screen and (min-width: 1424px) {
+  header,
+  section {
+    padding: 0 210px;
+  }
+}
