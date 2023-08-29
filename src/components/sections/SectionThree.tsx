@@ -43,7 +43,11 @@ const SectionThree = () => {
                   </p>
                 </div>
                 <div className="flex items-center">
-                  <button className="w-7 md:w-10 h-7 md:h-10 bg-[rgba(0,_186,_199,_0.10)] flex items-center justify-center rounded-full">
+                  <button
+                    type="button"
+                    aria-label="go to live demo project"
+                    className="w-7 md:w-10 h-7 md:h-10 bg-[rgba(0,_186,_199,_0.10)] flex items-center justify-center rounded-full"
+                  >
                     <ArrowRight className="text-primary w-4 md:w-6 h-4 md:h-6 flex-shrink-0" />
                   </button>
                 </div>
@@ -64,7 +68,11 @@ const SectionThree = () => {
                   </p>
                 </div>
                 <div className="flex items-center">
-                  <button className="w-7 md:w-10 h-7 md:h-10 bg-[rgba(0,_186,_199,_0.10)] flex items-center justify-center rounded-full">
+                  <button
+                    type="button"
+                    aria-label="go to discord server"
+                    className="w-7 md:w-10 h-7 md:h-10 bg-[rgba(0,_186,_199,_0.10)] flex items-center justify-center rounded-full"
+                  >
                     <ArrowRight className="text-primary w-4 md:w-6 h-4 md:h-6 flex-shrink-0" />
                   </button>
                 </div>
@@ -77,9 +85,11 @@ const SectionThree = () => {
       <section className="pb-24 lg:pb-48 bg-teal-50 flex flex-col gap-y-12 lg:gap-y-24">
         <div>
           <div className="flex justify-center">
-            <button className="w-fit h-9 px-5 py-2.5 bg-teal-100 rounded-full justify-start items-start gap-2.5 inline-flex">
-              <span className="text-cyan-500 text-sm font-bold tracking-wider">PRATINJAU</span>
-            </button>
+            <div className="w-fit h-9 px-2.5 py-1.5 lg:px-5 lg:py-2.5 bg-teal-100 rounded-full justify-start items-center gap-2.5 inline-flex">
+              <span className="text-cyan-500 text-xs lg:text-sm font-bold tracking-wider">
+                PRATINJAU
+              </span>
+            </div>
           </div>
           <h1 className="text-center text-slate-800 text-xl lg:text-3xl font-medium leading-normal lg:leading-10 mt-2.5">
             Sebelum membeli, kamu dapat melihat beberapa <br className="hidden lg:block" /> halaman

@@ -6,7 +6,10 @@ const SectionFour = () => {
       <section className="pricelist pt-10 -mt-36">
         <div className="py-14 lg:py-48">
           <div className="flex flex-col w-full items-center">
-            <button className="px-2.5 py-1.5 lg:px-5 lg:py-2.5 bg-teal-100/10 rounded-full">
+            <button
+              type="button"
+              className="px-2.5 py-1.5 lg:px-5 lg:py-2.5 bg-teal-100/10 rounded-full"
+            >
               <span className="text-cyan-500 text-xs lg:text-sm font-bold tracking-wide lg:tracking-wider">
                 HARGA BUKU
               </span>
@@ -34,7 +37,7 @@ const SectionFour = () => {
         <div className="flex justify-between flex-col lg:flex-row items-center gap-10 lg:gap-0">
           <div className="flex-1 flex justify-center">
             <div className="p-4 h-full relative flex flex-col items-center w-4/5 lg:w-full">
-              <img src="/public/author.jpg" alt="author picture" className="bg" />
+              <img src="/author.jpg" alt="author picture" className="bg" />
               <div className="static min-[400px]:-mt-32 lg:mt-0 xl:absolute bottom-36 left-20 bg-primary rounded-lg py-3 px-4 lg:py-6 lg:px-8 w-fit">
                 <p className="text-white text-sm lg:text-base">Muhamad Nauval Azhar</p>
                 <p className="text-white/80 text-xs lg:text-sm">@mhdnauvalazhar</p>

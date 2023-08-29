@@ -6,7 +6,7 @@ import Strip from '../layouts/Strip';
 const SectionFive = () => {
   return (
     <>
-      <section className="h-screen">
+      <section className="">
         <div className="relative py-14 lg:py-24 px-14 lg:px-24 bg-[#EDFCFD] h-auto rounded-lg">
           <div className="">
             <Strip border="primary" variant="primary">
@@ -46,7 +46,7 @@ const SectionFive = () => {
                   r="3.42105"
                   transform="matrix(1 0 0 -1 15.0526 6.8418)"
                   fill="#272D3E"
-                  fill-opacity="0.1"
+                  fillOpacity="0.1"
                 />
                 <circle
                   cx="3.42105"
@@ -54,7 +54,7 @@ const SectionFive = () => {
                   r="3.42105"
                   transform="matrix(1 0 0 -1 30.1053 6.8418)"
                   fill="#272D3E"
-                  fill-opacity="0.1"
+                  fillOpacity="0.1"
                 />
                 <circle
                   cx="3.42105"
@@ -62,7 +62,7 @@ const SectionFive = () => {
                   r="3.42105"
                   transform="matrix(1 0 0 -1 45.1579 6.8418)"
                   fill="#272D3E"
-                  fill-opacity="0.1"
+                  fillOpacity="0.1"
                 />
               </svg>
             </div>
@@ -84,6 +84,7 @@ const SectionFive = () => {
           </p>
           <div className="flex flex-col-reverse gap-5 text-white xl:gap-10 lg:flex-row-reverse justify-center items-center mt-10">
             <button
+              type="button"
               className={cn(
                 'flex items-center gap-3 py-3 lg:py-6 px-5 lg:px-11 text-sm lg:text-base bg-primary rounded-[100px] font-semibold shadow-[0px_15px_30px_0px_rgba(0,_186,_199,_0.33)] max-w-fit',
               )}

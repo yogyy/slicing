@@ -5,19 +5,21 @@
 @tailwind utilities;
 
 #root {
-  background-color: white;
+  /* background-color: rgb(24, 23, 23); */
   position: relative;
 }
 
 body {
   font-family: 'Comforter Brush', cursive;
   font-family: 'DM Sans', sans-serif;
-  color: white;
+  /* background-color: black; */
+  color: rgb(34, 33, 33);
   overflow-x: hidden;
 }
 
 header,
-section {
+section,
+footer {
   padding: 0 40px;
   margin: 0 auto;
   max-width: 120rem;
@@ -32,10 +34,10 @@ header {
 .bacabuku {
   /* background: linear-gradient(180deg, #2f364b 0%, #262b3d 100%); */
 
-  background-image: url('/public/Rectangle.svg');
+  background-image: url('/Rectangle.svg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right top -5px;
+  background-position: right -5px top -5px;
 
   /* &::after {
     content: '';
@@ -44,22 +46,51 @@ header {
     left: 0;
     z-index: 5;
     border-left: 100vw solid transparent;
-    border-bottom: 24.9vw solid rgb(0, 0, 0);
+    border-bottom: 14.9vw solid rgb(0, 0, 0);
     height: 25dvh;
     width: 100vw;
   } */
 }
 
+.pricelist {
+  background-color: #272d3e;
+
+  /* &::after {
+    content: '';
+    z-index: -10;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 150px;
+    bottom: -150px;
+    background-image: url('/pricelist.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  } */
+}
+
 @media screen and (min-width: 1024px) {
   header,
-  section {
+  section,
+  footer {
     padding: 0 130px;
   }
 }
 
 @media screen and (min-width: 1424px) {
   header,
-  section {
+  section,
+  footer {
     padding: 0 210px;
+  }
+
+  .pricelist {
+    background-color: transparent;
+    position: relative;
+    background-image: url('/pricelist.svg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }

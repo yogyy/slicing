@@ -6,7 +6,10 @@ import BunchFeatures from '../layouts/Feature';
 const SectionOne = () => {
   return (
     <>
-      <section className="relative flex flex-col justify-around lg:flex-row bacabuku pt-[72px] md:pt-[88px] lg:pt-[104px] xl:pt-[164px]">
+      <section
+        id="home"
+        className="relative flex flex-col justify-around lg:flex-row bacabuku pt-[72px] md:pt-[88px] lg:pt-[104px] xl:pt-[164px]"
+      >
         <div className="z-10 flex-1 mt-12">
           <h1 className="text-2xl font-semibold text-white lg:font-normal lg:text-4xl md:text-3xl xl:text-5xl">
             Sebuah framework CSS <br className="hidden xl:block" /> untuk developer yang{' '}
@@ -21,6 +24,7 @@ const SectionOne = () => {
           <div className="w-full h-6 lg:h-12" />
           <div className="flex flex-col gap-5 text-white xl:gap-10 lg:flex-row">
             <button
+              type="button"
               className={cn(
                 'flex items-center gap-3 py-3 lg:py-6 px-5 lg:px-11 text-sm lg:text-base bg-primary rounded-[100px] font-bold shadow-[0px_15px_30px_0px_rgba(0,_186,_199,_0.33)] max-w-fit',
               )}

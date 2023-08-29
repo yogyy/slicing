@@ -19,7 +19,7 @@ const SectionTwo = () => {
           </Strip>
           <h1 className="text-2xl lg:text-4xl">Kata Pengantar Dari Penulis Buku</h1>
           <div className="flex h-[50px] gap-5 mt-10 lg:mt-20">
-            <img src="/author.png" className="w-[50px] h-[50px] rounded-full" alt="author" />
+            <img src="/author-small.png" className="w-[50px] h-[50px] rounded-full" alt="author" />
             <div className="relative h-[90%]">
               <p className="text-lg font-medium">Muhamad Nauval Azhar</p>
               <p className="text-xs">@mhdnauvalazhar</p>
