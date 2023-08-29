@@ -19,7 +19,7 @@ const SectionTwo = () => {
           </Strip>
           <h1 className="text-2xl lg:text-4xl">Kata Pengantar Dari Penulis Buku</h1>
           <div className="flex h-[50px] gap-5 mt-10 lg:mt-20">
-            <img src="/author-small.png" className="w-[50px] h-[50px] rounded-full" alt="author" />
+            <img src="./author-small.png" className="w-[50px] h-[50px] rounded-full" alt="author" />
             <div className="relative h-[90%]">
               <p className="text-lg font-medium">Muhamad Nauval Azhar</p>
               <p className="text-xs">@mhdnauvalazhar</p>
@@ -49,11 +49,11 @@ const SectionTwo = () => {
           <h1 className="text-xl md:text-3xl leading-5 md:leading-10 font-medium text-[#272D3E]">
             Manfaat yang kamu dapatkan ketika membeli buku Tailwind CSS ini
           </h1>
-          <p className="mt-5 text-base md:text-lg leading-5 md:leading-8">
+          <p className="mt-5 text-base leading-5 md:text-lg md:leading-8">
             "Buku itu seperti cermin: kalau yang berkaca padanya adalah seorang yang bodoh, engkau
             tak bisa berharap yang terpantul adalah seorang yang jenius." - J.K Rowling
           </p>
-          <div className="flex flex-col gap-3 md:gap-5 mt-5 md:mt-10 text-sm md:text-base font-normal leading-5 md:leading-7">
+          <div className="flex flex-col gap-3 mt-5 text-sm font-normal leading-5 md:gap-5 md:mt-10 md:text-base md:leading-7">
             {manfaat.map((man) => (
               <div key={man.length} className="flex gap-3 md:gap-5">
                 <div className="w-6 md:w-[30px] h-6 md:h-[30px] flex justify-center items-center bg-[#20D27D] rounded-full flex-shrink-0">

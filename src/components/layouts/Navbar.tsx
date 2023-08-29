@@ -17,7 +17,7 @@ const Navbar = () => {
       )}
     >
       <div className="flex items-center gap-2 logo hover:cursor-pointer">
-        <img src="/Malaka.svg" alt="logo" />
+        <img src="./Malaka.svg" alt="logo" />
         <p className="text-base font-bold text-white xl:text-xl">The Malaka</p>
       </div>
       <nav className="hidden text-white/80 xl:block">

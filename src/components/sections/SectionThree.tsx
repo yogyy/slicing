@@ -17,7 +17,7 @@ const SectionThree = () => {
             )}
           />
         </div>
-        <div className="w-full lg:max-w-xl flex-1">
+        <div className="flex-1 w-full lg:max-w-xl">
           <Strip border="primary" variant="primary">
             SELAIN ITU
           </Strip>
@@ -28,17 +28,17 @@ const SectionThree = () => {
             Buku ini diakhiri dengan membangun website yang responsive dengan Tailwind. Selain itu
             kamu juga kamu dapat bergabung ke komunitas untuk bertanya ketika mengalami kesulitan.
           </p>
-          <div className="flex flex-col gap-4 md:gap-7 mt-5 md:mt-10">
+          <div className="flex flex-col gap-4 mt-5 md:gap-7 md:mt-10">
             <div className="py-3 px-4 md:py-5 md:px-7 flex gap-6 bg-white rounded-2xl shadow-[0px_15px_30px_0px_rgba(2,_40,_43,_0.10)] w-full">
               <div className="w-[30px]">
                 <Layout className="text-primary w-6 md:w-[30px] h-6 md:h-[30px] my-2" />
               </div>
-              <div className="flex gap-3 justify-between w-full">
+              <div className="flex justify-between w-full gap-3">
                 <div className="">
-                  <h1 className="text-primary text-base lg:text-lg leading-8 font-semibold">
+                  <h1 className="text-base font-semibold leading-8 text-primary lg:text-lg">
                     Live Demo Project
                   </h1>
-                  <p className="text-sm md:text-base leading-6 md:leading-7">
+                  <p className="text-sm leading-6 md:text-base md:leading-7">
                     Lihat live demo project yang akan kamu buat di akhir buku ini.
                   </p>
                 </div>
@@ -48,7 +48,7 @@ const SectionThree = () => {
                     aria-label="go to live demo project"
                     className="w-7 md:w-10 h-7 md:h-10 bg-[rgba(0,_186,_199,_0.10)] flex items-center justify-center rounded-full"
                   >
-                    <ArrowRight className="text-primary w-4 md:w-6 h-4 md:h-6 flex-shrink-0" />
+                    <ArrowRight className="flex-shrink-0 w-4 h-4 text-primary md:w-6 md:h-6" />
                   </button>
                 </div>
               </div>
@@ -58,12 +58,12 @@ const SectionThree = () => {
               <div className="w-[30px]">
                 <MessageSquare className="text-primary w-6 md:w-[30px] h-6 md:h-[30px] my-2" />
               </div>
-              <div className="flex gap-3 justify-between w-full">
+              <div className="flex justify-between w-full gap-3">
                 <div className="">
-                  <h1 className="text-primary text-base lg:text-lg leading-8 font-semibold">
+                  <h1 className="text-base font-semibold leading-8 text-primary lg:text-lg">
                     Dukungan Komunitas
                   </h1>
-                  <p className="text-sm md:text-base leading-6 md:leading-7">
+                  <p className="text-sm leading-6 md:text-base md:leading-7">
                     Sebuah server Discord berisi teman-teman yang akan membantu kamu.
                   </p>
                 </div>
@@ -73,7 +73,7 @@ const SectionThree = () => {
                     aria-label="go to discord server"
                     className="w-7 md:w-10 h-7 md:h-10 bg-[rgba(0,_186,_199,_0.10)] flex items-center justify-center rounded-full"
                   >
-                    <ArrowRight className="text-primary w-4 md:w-6 h-4 md:h-6 flex-shrink-0" />
+                    <ArrowRight className="flex-shrink-0 w-4 h-4 text-primary md:w-6 md:h-6" />
                   </button>
                 </div>
               </div>
@@ -82,11 +82,11 @@ const SectionThree = () => {
         </div>
       </section>
 
-      <section className="pb-24 lg:pb-48 bg-teal-50 flex flex-col gap-y-12 lg:gap-y-24">
+      <section className="flex flex-col pb-24 lg:pb-48 bg-teal-50 gap-y-12 lg:gap-y-24">
         <div>
           <div className="flex justify-center">
             <div className="w-fit h-9 px-2.5 py-1.5 lg:px-5 lg:py-2.5 bg-teal-100 rounded-full justify-start items-center gap-2.5 inline-flex">
-              <span className="text-cyan-500 text-xs lg:text-sm font-bold tracking-wider">
+              <span className="text-xs font-bold tracking-wider text-cyan-500 lg:text-sm">
                 PRATINJAU
               </span>
             </div>
@@ -95,24 +95,24 @@ const SectionThree = () => {
             Sebelum membeli, kamu dapat melihat beberapa <br className="hidden lg:block" /> halaman
             pratinjau isi di dalam buku ini
           </h1>
-          <p className="text-center text-slate-800 text-opacity-80 text-base lg:text-lg font-normal leading-relaxed lg:leading-loose mt-5">
+          <p className="mt-5 text-base font-normal leading-relaxed text-center text-slate-800 text-opacity-80 lg:text-lg lg:leading-loose">
             Klik pada gambar halaman di sebelah kanan buku untuk melihat lebih
             <br className="hidden lg:block" /> detail halaman buku tersebut dan membaca isinya.
           </p>
         </div>
-        <div className="flex relative 2xl:pr-10 justify-center">
-          <div className="flex-1 flex-col justify-center items-center">
-            <img src="/Vectary.webp" draggable="false" alt="tailwind book" />
+        <div className="relative flex justify-center 2xl:pr-10">
+          <div className="flex-col items-center justify-center flex-1">
+            <img src="./Vectary.webp" draggable="false" alt="tailwind book" />
           </div>
-          <div className="absolute -right-56 hidden 2xl:block">
+          <div className="absolute hidden -right-56 2xl:block">
             <img
-              src="/collection-page.webp"
+              src="./collection-page.webp"
               draggable="false"
               alt="tailwind book"
               className="my-10"
             />
           </div>
-          <span className="text-xs lg:text-base leading-8 text-center absolute bottom-20 hidden 2xl:block">
+          <span className="absolute hidden text-xs leading-8 text-center lg:text-base bottom-20 2xl:block">
             Halaman 1 dari 257
           </span>
         </div>

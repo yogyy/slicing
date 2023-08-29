@@ -35,7 +35,7 @@ const SectionOne = () => {
               </span>
             </button>
             <div className="flex gap-3 font-mono md:gap-6">
-              <span className="flex py-2 items-center justify-around 2xl:items-start">
+              <span className="flex items-center justify-around py-2 2xl:items-start">
                 <Download className="w-6 h-6" />
               </span>
               <div className="flex flex-row items-center justify-center gap-3 md:items-start md:flex-col md:gap-0">
@@ -57,9 +57,9 @@ const SectionOne = () => {
             />
           </div>
         </div>
-        <div className="flex items-center lg:flex-1 justify-center">
+        <div className="flex items-center justify-center lg:flex-1">
           <div className="w-4/5 lg:w-full">
-            <img src="/tailwind-book.webp" draggable="false" alt="tailwind book" />
+            <img src="./tailwind-book.webp" draggable="false" alt="tailwind book" />
           </div>
         </div>
       </section>
