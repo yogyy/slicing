@@ -13,7 +13,7 @@ const Navbar = () => {
     <header
       className={cn(
         'relative z-20 flex items-center justify-between w-full py-4 lg:py-6 xl:py-14',
-        '-mb-[72px] md:-mb-[88px] lg:-mb-[104px] xl:-mb-[168px]',
+        '-mb-[82px] md:-mb-[88px] lg:-mb-[104px] xl:-mb-[168px]',
       )}
     >
       <div className="flex items-center gap-2 logo hover:cursor-pointer">
