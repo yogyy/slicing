@@ -58,7 +58,7 @@ const SectionOne = () => {
           </div>
         </div>
         <div className="flex items-center justify-center lg:flex-1">
-          <div className="w-4/5 lg:w-full z-10">
+          <div className="z-10 w-4/5 lg:w-full">
             <img src="./tailwind-book.webp" draggable="false" alt="tailwind book" />
           </div>
         </div>
