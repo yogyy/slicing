@@ -32,65 +32,14 @@ header {
 }
 
 .bacabuku {
-  /* background: linear-gradient(180deg, #2f364b 0%, #262b3d 100%); */
-
   background-image: url('/Rectangle.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right -5px top -5px;
-
-  /* &::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 5;
-    border-left: 100vw solid transparent;
-    border-bottom: 14.9vw solid rgb(0, 0, 0);
-    height: 25dvh;
-    width: 100vw;
-  } */
-  &::before {
-    content: '';
-    position: absolute;
-    background: rgba(255, 255, 255, 0.02);
-    border-radius: 35px;
-    perspective: 1000px;
-    transform: scaleY(1) scaleZ(1) rotateX(9deg) rotateY(20deg) rotateZ(1deg) translateX(0px)
-      translateY(0px) translateZ(0px) skewX(0deg) skewY(0deg);
-    @apply w-36 h-60 lg:w-[244px] lg:h-[511px] left-0 top-40 lg:left-10;
-  }
-
-  &::after {
-    content: '';
-    position: absolute;
-    @apply w-52 h-52 lg:w-[578px] lg:h-[578px] -top-20 -right-20 lg:-top-24 lg:-right-24;
-    z-index: -1px;
-    border-radius: 100%;
-    background: linear-gradient(
-      48deg,
-      rgba(255, 255, 255, 0.02) 18.93%,
-      rgba(255, 255, 255, 0) 68.74%
-    );
-  }
 }
 
 .pricelist {
   background-color: #272d3e;
-
-  /* &::after {
-    content: '';
-    z-index: -10;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 150px;
-    bottom: -150px;
-    background-image: url('/pricelist.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-  } */
 }
 
 @media screen and (min-width: 1024px) {

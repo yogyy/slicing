@@ -17,7 +17,8 @@ const SectionThree = () => {
             )}
           />
         </div>
-        <div className="flex-1 w-full lg:max-w-xl">
+
+        <div className="flex-1 w-full mt-10 xl:mt-0 lg:mx-auto lg:max-w-xl">
           <Strip border="primary" variant="primary">
             SELAIN ITU
           </Strip>

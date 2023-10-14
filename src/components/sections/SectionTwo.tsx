@@ -44,7 +44,7 @@ const SectionTwo = () => {
       </section>
 
       <section className="bg-[#EDFCFD] text-[rgba(39,_45,_62,_0.80)] py-24 lg:py-48 flex gap-7 flex-col lg:flex-row">
-        <div className="max-w-[575px] flex-1">
+        <div className="max-w-[575px] flex-1 mx-auto">
           <Strip>MANFAAT BUKU</Strip>
           <h1 className="text-xl md:text-3xl leading-5 md:leading-10 font-medium text-[#272D3E]">
             Manfaat yang kamu dapatkan ketika membeli buku Tailwind CSS ini

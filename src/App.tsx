@@ -1,10 +1,13 @@
 import Navbar from '@/components/layouts/Navbar';
-import SectionOne from './components/sections/SectionOne';
-import SectionTwo from './components/sections/SectionTwo';
-import SectionThree from './components/sections/SectionThree';
-import SectionFour from './components/sections/SectionFour';
-import SectionFive from './components/sections/SectionFive';
-import Footer from './components/layouts/Footer';
+import SectionOne from '@/components/sections/SectionOne';
+import SectionTwo from '@/components/sections/SectionTwo';
+
+import Footer from '@/components/layouts/Footer';
+import { lazy } from 'react';
+
+const Sect3Lazy = lazy(() => import('@/components/sections/SectionThree'));
+const Sect4Lazy = lazy(() => import('@/components/sections/SectionFour'));
+const Sect5Lazy = lazy(() => import('@/components/sections/SectionFive'));
 
 function App() {
   return (
@@ -13,9 +16,9 @@ function App() {
       <main className="relative w-full h-full">
         <SectionOne />
         <SectionTwo />
-        <SectionThree />
-        <SectionFour />
-        <SectionFive />
+        <Sect3Lazy />
+        <Sect4Lazy />
+        <Sect5Lazy />
       </main>
       <Footer />
     </>
